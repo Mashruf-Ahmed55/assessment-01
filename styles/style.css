@@ -148,7 +148,7 @@ footer {
 }
 
 /* Pillars Section */
-/* #pillars-section {
+#pillars-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,7 +200,7 @@ footer {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
-} */
+}
 /* Feature Section */
 /* #feature-section {
   display: flex;
