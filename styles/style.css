@@ -18,8 +18,10 @@ a {
   text-decoration: none;
 }
 button {
-  outline: none;
   cursor: pointer;
+}
+input {
+  outline: none;
   border: none;
 }
 h1,
@@ -420,7 +422,6 @@ footer {
 }
 
 /* Resent News Section */
-
 #news-section {
   margin-top: 80px;
   display: flex;
@@ -506,6 +507,88 @@ footer {
   width: 139px;
   height: 48px;
   padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  background: var(--btn-bg);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+/* Donate Section */
+#donate-section {
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  margin-top: 80px;
+}
+#donate-section h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+#donate-section p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+#donate-section .donate-box {
+  display: flex;
+  column-gap: 50px;
+}
+#donate-section .donate-box .box {
+  width: 240px;
+  height: 128px;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#donate-section .donate-box .box:hover {
+  background-color: var(--primary-bg-cooler);
+}
+
+#donate-section .donate-box .box:nth-child(2) {
+  background: var(--primary-bg-cooler);
+}
+
+#donate-section .donate-box .box h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+}
+#donate-section input {
+  width: 1032px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  border-bottom: 2px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+}
+#donate-section input[placeholder] {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#donate-section button {
+  width: 151px;
+  height: 56px;
+  padding: 17px 34px 17px 34px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
   border-radius: 8px;
   background: var(--btn-bg);
   color: rgb(255, 255, 255);
